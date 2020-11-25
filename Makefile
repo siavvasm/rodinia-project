@@ -1,0 +1,5 @@
+all:
+	cd b+tree; make; cd ../backprop; make; cd ../bfs; make; cd ../cfd; make; cd ../heartwall; make; cd ../hotspot; make; cd ../hotspot3D; make; cd ../kmeans/kmeans_serial; make; cd ../../lavaMD; make; cd ../leukocyte/ make; cd ../lud/omp; make; cd ../../myocyte; make; cd ../nn; make; cd ../nw; make; cd ../particlefilter; make; cd ../pathfinder; make; cd ../srad/srad_v1; make; cd ../../srad/srad_v2; make; cd ../streamcluster; make;
+
+clean:
+	cd b+tree; make clean; cd ../backprop; make clean; cd ../bfs; make clean; cd ../cfd; make clean; cd ../heartwall; make clean; cd ../hotspot; make clean; cd ../hotspot3D; make clean; cd ../kmeans/kmeans_serial; make clean; cd ../../lavaMD; make clean; cd ../leukocyte/ make clean; cd ../lud/omp; make clean; cd ../../myocyte; make clean; cd ../nn; make clean; cd ../nw; make clean; cd ../particlefilter; make clean; cd ../pathfinder; make clean; cd ../srad/srad_v1; make clean; cd ../../srad/srad_v2; make clean; cd ../streamcluster; make clean;
